@@ -16,6 +16,9 @@ public class PriorityQueueLab {
                 // String intVals = scan.nextLine();
                 // System.out.println(intVals);
             }
+            while(!pQ.isEmpty()) {
+                System.out.println(pQ.poll());
+            }
             System.out.println(pQ);
         }catch(FileNotFoundException e) {
             System.out.println("There isn't a file being inputted idiot");
